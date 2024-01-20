@@ -1,3 +1,4 @@
+```lua 
 --Made by Plutonium.lua
 getgenv().Paws = {
         ["AutoParry"] = true,
@@ -53,4 +54,4 @@ game:GetService("RunService").PreRender:connect(function()
         if (Distance / BallVelocity) <= PawsTable.DistanceToHit and IsTheTarget() and PawsTable.AutoParry then
                Paws:WaitForChild("ParryButtonPress"):Fire()
            end
-end)
+end)```
